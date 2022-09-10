@@ -19,7 +19,7 @@ const Header: React.FC<HeaderProps> = () => {
                     </nav>
                     <div className={header.content}>
                         <h1>My name is <span className={header.span}>Wonderful</span></h1>
-                        <p>I'm a <span className={header.span}>Javascript</span> Developer</p>
+                        <p>A <span className={header.span}>Javascript</span> Developer, into building web applications which profer solutions to its users, using credible web technologies. I keep working towards being a better web Developer</p>
                     </div>
                 </div>
             </section>

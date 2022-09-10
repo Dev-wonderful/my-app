@@ -45,7 +45,7 @@ const Project: React.FunctionComponent<ProjectProps> = () => {
             <h2 className={project.heading}>Projects</h2>
             <div className={project.section}>
                 <div className={project.card}>
-                    <div className={project.imagediv}><img src="https://gds-foundation.herokuapp.com/public/logo.png" alt="" /></div>
+                    <div className={project.imagediv}><img src="https://gds-foundation.herokuapp.com/public/logo.png" alt="Hephzibah" /></div>
                     <h4>GDSFoundation</h4>
                     <p>To Provide Spiritual and Emotional Support to Widows and Single Mothers through the Preaching of the Gospel.</p>
                     <a href="https://gds-foundation.herokuapp.com">The Foundation website</a>
