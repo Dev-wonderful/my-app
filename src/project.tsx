@@ -1,6 +1,7 @@
 import React from "react";
 import project from './project.module.css'
 import image from './assets/LInkedin.jpg'
+import shopping from './assets/Shopping.png'
 interface ProjectProps {
     
 }
@@ -51,7 +52,7 @@ const Project: React.FunctionComponent<ProjectProps> = () => {
                     <a href="https://gds-foundation.herokuapp.com">The Foundation website</a>
                 </div>
                 <div className={project.card}>
-                    <div className={project.imagediv}><img src="" alt="Shopping Cart" /></div>
+                    <div className={project.imagediv}><img src={shopping} alt="Shopping Cart" /></div>
                     <h4>Product Page</h4>
                     <p>It has the ability to track orders through the add and remove from cart functionality, quantity and price calculation</p>
                     <a href="https://wonder-shopping.netlify.app/">An E-commerce Page</a>
