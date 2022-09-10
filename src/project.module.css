@@ -14,13 +14,14 @@
 .card{
     min-width: 200px;
     width: 30%;
-    height: 300px;
+    min-height: 400px;
     background-color: rgb(41, 41, 41);
     /* overflow-wrap: break-all; */
     word-wrap: break-word;
     color: whitesmoke;
     text-align: center;
     border: 1px solid rgb(37, 163, 142);
+    padding-bottom: 10px;
 }
 .heading {
     color: rgb(37, 163, 142);
@@ -34,4 +35,18 @@
     justify-content: space-around;
     flex-wrap: wrap;
     gap: 20px;
+}
+.imagediv{
+    width: 100%;
+    height: 250px;
+}
+.imagediv img{
+    height: 250px;
+    width: 100%;
+}
+.card a{
+    color: whitesmoke;
+}
+.card h4{
+    margin: 0px;
 }
