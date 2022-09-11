@@ -11,10 +11,15 @@ const Skills: React.FunctionComponent<SkillsProps> = () => {
         <section className={skill.container}>
             <div className={skill.card}>
                 <h3 className={skill.heading}>Languages</h3>
+                
                 <p className={skill.balance}><img src={require('./assets/logo/css-3.svg').default} alt="css" /><span>HTML</span></p>
+
                 <p className={skill.balance}><img src={require('./assets/logo/css-3.svg').default} alt="css" /><span className={skill.text}>CSS</span></p>
+
                 <p className={skill.balance}><img className={skill.logo} src={require('./assets/logo/javascript.svg').default} alt="css" />Javascript</p>
+
                 <p className={skill.balance}><img className={skill.logo} src={require('./assets/logo/typescript.svg').default} alt="css" />Typescript</p>
+
                 <p className={skill.balance}><img className={skill.logo} src={require('./assets/logo/python.svg').default} alt="css" />Python</p>
             </div>
             <div className={skill.card}>

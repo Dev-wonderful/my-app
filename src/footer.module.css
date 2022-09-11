@@ -11,14 +11,15 @@
     text-align: center;
     padding: 20px;
     box-sizing: border-box;
-    border: 1px solid rgb(37, 163, 142);
+    border-top: 1px solid rgb(37, 163, 142);
 }
 .footer p{
     width: 30%;
     min-width: 200px;
-    min-height: 70px;
+    min-height: 25px;
     margin: 0px;
 }
 .footer a{
     color: whitesmoke;
+    margin: 0px;
 }
