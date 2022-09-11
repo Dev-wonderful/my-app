@@ -15,7 +15,7 @@
 .card{
     min-width: 250px;
     width: 30%;
-    min-height: 400px;
+    min-height: 300px;
     background-color: rgb(41, 41, 41);
     /* overflow-wrap: break-all; */
     word-wrap: break-word;
