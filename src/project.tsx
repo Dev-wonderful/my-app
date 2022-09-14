@@ -69,6 +69,7 @@ const Project: React.FunctionComponent<ProjectProps> = () => {
                     <p>Wonderful has 2 jobs listed on their profile. See the complete profile on LinkedIn and discover Wonderful’s connections and jobs at similar companies.</p>
                     <a href="https://linkedin.com/in/wonderful-adeyemo-4789121a3">My LinkedIn Profile</a>
                 </div>
+                {/* <div className={project.spacer}></div> */}
             </div>
         </section>
      );

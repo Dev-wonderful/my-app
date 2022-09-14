@@ -9,8 +9,15 @@
     gap: 20px;
     width: 100%;
     min-height: 400px;
-    background-color: rgb(15, 15, 15);
+    /* background-color: rgb(15, 15, 15); */
     padding-bottom: 40px;
+    /* aspect-ratio: 960/300; */
+    width: 100%;
+    /* position: absolute; */
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-image: url('./assets/stacked-steps-haikei.svg');
 }
 .heading {
     color: rgb(37, 163, 142);
@@ -29,7 +36,8 @@
     min-width: 250px;
     width: 30%;
     min-height: 300px;
-    background-color: rgb(41, 41, 41);
+    /* background-color: #292929; */
+    background-image: url('./assets/project-bg.svg');
     /* overflow-wrap: break-all; */
     word-wrap: break-word;
     color: whitesmoke;
@@ -42,11 +50,11 @@
 }
 .imagediv{
     width: 100%;
-    height: 150px;
+    height: 250px;
     border-radius: 55px;
 }
 .imagediv img{
-    height: 150px;
+    height: 250px;
     width: 100%;
     border-radius: 55px;
 }
@@ -56,3 +64,16 @@
 .card h4{
     margin: 0px;
 }
+/* .spacer{
+    aspect-ratio: 960/300;
+    width: 100%;
+    position: absolute;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-image: url('./assets/blurry-gradient-haikei.svg');
+    z-index: -1;
+    opacity: 0.5;
+} */
+/* .layer1{
+} */
