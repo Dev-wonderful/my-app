@@ -53,14 +53,14 @@
 .card p{
     padding: 3px;
 }
-@media(max-width: 600px) {
+/* @media(max-width: 600px) {
     .card p{
-        font-size: 2.5vw;
+        font-size: 4.5vw;
     }
-}
+} */
 @media(max-width: 900px) {
-    .card p{
-        font-size: 1.2vw;
+    .card{
+        font-size: 2.5vw;
     }
 }
 .imagediv{
