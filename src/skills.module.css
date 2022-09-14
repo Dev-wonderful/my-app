@@ -21,7 +21,7 @@
 .card{
     min-width: 250px;
     width: 30%;
-    height: 300px;
+    min-height: 200px;
     /* background-color: rgb(41, 41, 41); */
     /* background-image: url('./project-bg.svg'); */
     /* overflow-wrap: break-all; */
@@ -35,6 +35,14 @@
     flex-direction: column;
     align-items: center;
     padding-bottom: 20px;
+}
+.card{
+    font-size: 1.5vw;
+}
+@media(max-width: 600px) {
+    .card{
+        font-size: 2vw;
+    }
 }
 .heading {
     color: rgb(37, 163, 142);
