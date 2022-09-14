@@ -21,7 +21,7 @@
 }
 .heading {
     color: rgb(37, 163, 142);
-    font-size: 2rem;
+    font-size: 1.5rem;
 }
 .section{
     min-height: 400px;
@@ -60,7 +60,7 @@
 } */
 @media(max-width: 900px) {
     .card{
-        font-size: 2.5vw;
+        font-size: 2.7vw;
     }
 }
 .imagediv{
