@@ -34,10 +34,10 @@
 }
 .card{
     min-width: 250px;
-    width: 30%;
+    width: 300px;
     min-height: 300px;
-    /* background-color: #292929; */
-    background-image: url('./assets/project-bg.svg');
+    background-color: #292929;
+    /* background-image: url('./assets/project-bg.svg'); */
     /* overflow-wrap: break-all; */
     word-wrap: break-word;
     color: whitesmoke;
@@ -47,7 +47,7 @@
     border-radius: 55px;
     box-shadow: 3px 3px rgb(76, 97, 93);
     padding-bottom: 20px;
-    font-size: 1vw;
+    font-size: clamp(0.75rem, 0.75rem + 1.5vw, 0.9rem);
     
 }
 .card p{
@@ -60,21 +60,27 @@
 } */
 @media(max-width: 900px) {
     .card{
-        font-size: 3vw;
+        font-size: 1rem;
     }
 }
 .imagediv{
     width: 100%;
-    height: 250px;
+    height: 220px;
     border-radius: 55px;
+    /* background-color: rgb(31, 196, 196); */
 }
 .imagediv img{
-    height: 250px;
+    height: 200px;
     width: 100%;
+    min-width: 250px;
+    object-fit: cover;
+    object-position: top center;
     border-radius: 55px;
 }
 .card a{
     color: whitesmoke;
+    display: block;
+    margin: 5px;
 }
 .card h4{
     margin: 0px;

@@ -12,18 +12,19 @@
     padding: 20px;
     box-sizing: border-box;
     border-top: 1px solid rgb(37, 163, 142);
-    font-size: 1.3vw;
+    font-size: 1rem;
 }
 @media(max-width: 600px) {
     .footer{
-        font-size: 2.5vw;
+        font-size: 1rem;
     }
 }
 .footer p{
-    width: 30%;
+    width: 50%;
     min-width: 200px;
     min-height: 25px;
-    margin: 0px;
+    margin-top: 5px;
+    cursor: pointer;
 }
 .footer a{
     color: whitesmoke;
