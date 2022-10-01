@@ -15,7 +15,7 @@ const Header: React.FC<HeaderProps> = () => {
             });
         } else {
             window.scrollTo({
-                top: 1000, 
+                top: 1200, 
                 behavior: 'smooth'
                 
             });
