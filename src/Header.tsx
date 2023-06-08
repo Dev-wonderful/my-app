@@ -31,7 +31,7 @@ const Header: React.FC<HeaderProps> = () => {
                         <ul className={header.ul}>
                             <li>Home</li>
                             <li onClick={() => scrollTo('contact')}>Contact me</li>
-                            <li onClick={() => scrollTo('')}>Projects</li>
+                            { /* <li onClick={() => scrollTo('')}>Projects</li> */ }
                         </ul>
                     </nav>
                     <div className={header.content}>
