@@ -21,7 +21,7 @@ function App() {
                     <Header />
                     <main className='main'>
                       <Skills />
-                      <Project />
+                      
                     </main>
                     <Footer />
                   </div>
