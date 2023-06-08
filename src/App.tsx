@@ -2,7 +2,7 @@ import React from 'react';
 import './App.css';
 import Header from './Header';
 import Skills from './skills';
-import Project from './project';
+// import Project from './project';
 import Footer from './footer';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
 // import { Parallax, ParallaxLayer } from '@react-spring/parallax';
